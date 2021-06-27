@@ -14,7 +14,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: DefaultTabController(
-        length: 10,
+        length: 4,
         child: Scaffold(
           appBar: AppBar(
             title: Text("HOME"),
@@ -34,12 +34,6 @@ class _MyAppState extends State<MyApp> {
                   Tab(icon: Icon(Icons.settings), text: "Settings"),
                   Tab(icon: Icon(Icons.phone_android), text: "Mobile"),
                   Tab(icon: Icon(Icons.laptop), text: "Laptop"),
-                  Tab(icon: Icon(Icons.home), text: "MHR"),
-                  Tab(icon: Icon(Icons.settings), text: "Settings"),
-                  Tab(icon: Icon(Icons.phone_android), text: "Mobile"),
-                  Tab(icon: Icon(Icons.laptop), text: "Laptop"),
-                  Tab(icon: Icon(Icons.home), text: "MHR"),
-                  Tab(icon: Icon(Icons.settings), text: "Settings"),
                 ]),
           ),
         ),
